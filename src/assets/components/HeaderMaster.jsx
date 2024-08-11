@@ -1,0 +1,21 @@
+//import React from 'react'
+import './HeaderMaster.css';
+
+const HeaderMaster = () => {
+  return (
+    <header className='header-container'>
+      <div className="img-title-container">
+        <img className='img-uvol' src="/uvol logo.jpg" alt="logo uvol" />
+        <span className='title-header'>Uvol SRL</span>
+      </div>
+      <div className="ref-container">
+        <a className='ref-span' href="#home">Inicio</a>
+        <a className='ref-span' href="#about">Quienes Somos</a>
+        <a className='ref-span' href="#service">Nuestros Servicios</a>
+      </div>
+      <button className='btn-contact'>Contacta con Nosotros</button>
+    </header>
+  )
+}
+
+export default HeaderMaster

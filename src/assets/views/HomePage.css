@@ -1,0 +1,10 @@
+.homepage-container{
+    background-color: rgba(4, 27, 45, 0.03);
+    padding: 70px;
+}
+.textbox-container{
+    display: flex;
+}
+.img-tipo{
+    height: 40vw;
+}

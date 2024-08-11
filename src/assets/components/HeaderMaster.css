@@ -1,0 +1,47 @@
+.header-container{
+    background-color: #fff;
+    padding: 50px 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(4, 27, 45, 0.2);
+}
+.ref-container{
+    display: flex;
+    align-items: center;
+    gap: 10vw;    
+}
+.ref-span{
+    text-decoration: none;
+    font-weight: 400;
+    color: #041b2d;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.ref-span:hover{
+    color: #18c7c9;
+}
+.title-header{
+    font-weight: 700;
+    color: #041b2d;
+}
+.btn-contact{
+    font-family: "Roboto Mono", monospace;
+    background-color: #041b2d;
+    border: 2px solid #041b2d;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 0px 20px ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.btn-contact:hover{
+    background-color: transparent;
+    color: #041b2d;
+    font-weight: 700;
+}
