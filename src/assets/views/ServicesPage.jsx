@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 const ServicesPage = () => {
   return (
     <div className='a'>
-      <HeaderMaster/>
+
       <div className="servicios-container">
       <h1 className="servicios-title">Nuestros Servicios</h1>
       <p className="servicios-description">

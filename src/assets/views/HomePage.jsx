@@ -6,13 +6,11 @@ const HomePage = () => {
   return (
     <div className="a">
 
-      <HeaderMaster/>
-
       <div className='homepage-container'>
         <div className="textbox-container">
           <div className="text-content">
-              <h3>Titulo</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, porro ipsa neque illo nesciunt maiores nisi unde eum nam? Laudantium doloribus et voluptates harum fugit cum labore temporibus vitae ex.</p>
+              <h3 className='U-text'>UVOL</h3>
+              <p className='H-text'>Somos una empresa dedicada a la creación de soluciones tecnológicas innovadoras que abordan diversas necesidades del mercado. Fundada en 2024, la empresa se ha comprometido a desarrollar aplicaciones y plataformas que faciliten la gestión y optimización de procesos en diferentes sectores.</p>
               <button className='btn-contact'>Contacta con Nosotros</button>
           </div>
           <img className='img-tipo' src="/tipo.png" alt="tipo" />
@@ -90,7 +88,7 @@ const HomePage = () => {
             </div>
 
             <div className='imgtxt-container'>
-            <img className='steps' src="/recived.png" alt="steps" />
+            <img className='steps' src="/email (1).png" alt="steps" />
               <p className='ptxt'>3. Recibe nuestra propuesta</p>
             </div>
 
@@ -114,7 +112,7 @@ const HomePage = () => {
             </div>
 
             <div className='titletxt-container'>
-              <p className='title'>Email</p>
+              <p className='title'>E-mail</p>
               <input type="text" />
             </div>
 
