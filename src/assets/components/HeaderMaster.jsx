@@ -10,8 +10,8 @@ const HeaderMaster = () => {
         <span className='title-header'>Uvol SRL</span>
       </div>
       <div className="ref-container">
-        <a className='ref-span' href="/home">Inicio</a>
-        <a className='ref-span' href="/about">Quienes Somos</a>
+        <a className='ref-span' href="/">Inicio</a>
+        <a className='ref-span' href="/aboutus">Quienes Somos</a>
         <a className='ref-span' href="/services">Nuestros Servicios</a>
       </div>
       <button className='btn-contact'>Contacta con Nosotros</button>

@@ -44,7 +44,7 @@
   
   .card-image img {
     width: 100%;
-    max-width: 100%; /* Asegura que la imagen no se expanda más allá de su contenedor */
+    max-width: 100%;
     height: auto;
   }
   

@@ -196,11 +196,11 @@
     margin: 10px 0;
 }
 
-.details {
+.detalles {
+    text-decoration: none;
     font-size: 0.85em;
     text-align: justify;
     flex-grow: 1;
-    overflow: hidden;
 }
 
 

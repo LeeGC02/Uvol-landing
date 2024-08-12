@@ -1,0 +1,121 @@
+.about-container {
+    padding: 40px;
+  }
+  
+  .block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .alternate {
+    flex-direction: row-reverse;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .text-container h2{
+    color: #02819e;
+    font-size: 50px;
+  }
+
+  .text-container p{
+    font-size: 20px;
+  }
+
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-section {
+    text-align: center;
+    margin: 60px 0;
+  }
+  
+  .team-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .team-card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .team-card img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .featured-project {
+    margin-top: 60px;
+  }
+  
+  .featured-project .project-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .project-text p {
+    font-size: 20px;
+  }
+  
+  .featured-project img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .featured-project {
+    border: 5px solid transparent;
+    background: linear-gradient(white, white),
+                linear-gradient(to right, red, yellow);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+
+  .alternate {
+    flex-direction: row-reverse;
+  }

@@ -44,7 +44,7 @@ const HomePage = () => {
           <img className='img-leader' src="/astronauta.gif" alt="leader" />
           <div className='textinf-container'>
             <p className='leader'>Lider de Proyecto</p>
-            <p className='details'>Responsable de planificar, ejecutar y cerrar proyectos de manera efectiva y eficiente. Actúa como el punto de contacto principal entre el equipo del proyecto y la parte interesada.</p>
+            <p className='detalles'>Responsable de planificar, ejecutar y cerrar proyectos de manera efectiva y eficiente. Actúa como el punto de contacto principal entre el equipo del proyecto y la parte interesada.</p>
           </div>  
         </div>
 
@@ -52,19 +52,19 @@ const HomePage = () => {
           <div className='team-card1'>
           <img className='img-UX' src="/UX.gif" alt="UX" />
           <p className='ux-ui'>Diseñador UX-UI</p>
-          <p className='details'>Se enfoca en cómo los usuarios interactúan con un producto digital, asegurando que la experiencia sea intuitiva, eficiente y agradable. Investiga y analiza el comportamiento de los usuarios para crear wireframes, prototipos y mapas de flujo que mejoren la usabilidad del sitio o aplicación.</p>
+          <p className='detalles'>Se enfoca en cómo los usuarios interactúan con un producto digital, asegurando que la experiencia sea intuitiva, eficiente y agradable. Investiga y analiza el comportamiento de los usuarios para crear wireframes, prototipos y mapas de flujo que mejoren la usabilidad del sitio o aplicación.</p>
           </div>
 
           <div className='team-card1'>
           <img className='img-DEV1' src="/frontend.gif" alt="DEV1" />
           <p className='dev1'>Front Web</p>
-          <p className='details'>Se especializa en el desarrollo de la parte visible y con la que interactúan los usuarios de un sitio web o aplicación. Utiliza tecnologías como HTML, CSS, y JavaScript para construir interfaces responsivas, accesibles y atractivas, asegurando que el diseño se traduzca correctamente en todos los dispositivos y navegadores.</p>
+          <p className='detalles'>Se especializa en el desarrollo de la parte visible y con la que interactúan los usuarios de un sitio web o aplicación. Utiliza tecnologías como HTML, CSS, y JavaScript para construir interfaces responsivas, accesibles y atractivas, asegurando que el diseño se traduzca correctamente en todos los dispositivos y navegadores.</p>
           </div>
 
           <div className='team-card1'>
           <img className='img-DEV2' src="/fullstack.gif" alt="DEV2" />
           <p className='dev2'>Full Stack</p>
-          <p className='details'>Es un profesional versátil que domina tanto el desarrollo frontend como el backend. Es capaz de diseñar, construir y mantener la arquitectura completa de una aplicación, desde la base de datos y la lógica del servidor hasta la interfaz de usuario. Maneja tecnologías y lenguajes de programación para crear soluciones integrales que sean eficientes, escalables y seguras.</p>
+          <p className='detalles'>Es un profesional versátil que domina tanto el desarrollo frontend como el backend. Es capaz de diseñar, construir y mantener la arquitectura completa de una aplicación, desde la base de datos y la lógica del servidor hasta la interfaz de usuario. Maneja tecnologías y lenguajes de programación para crear soluciones integrales que sean eficientes, escalables y seguras.</p>
           </div>
         </div>
 

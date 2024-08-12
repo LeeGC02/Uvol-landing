@@ -12,7 +12,7 @@ const Footer = () => {
         <span className='copyright-span'>Copyright © 2024 Uvol SRL.</span>
       </div>
       <div className="social-net-container">
-        <a className='network-a' href="#facebook">Facebook</a>
+      <a className='network-a' href="https://www.facebook.com/tuPerfilDeFacebook" target="_blank" rel="noopener noreferrer">Facebook</a>
         <a className='network-a' href="#instagram">Instagram</a>
         <a className='network-a' href="#twitter">Twitter</a>
         <a className='network-a' href="#tiktok">TikTok</a>
