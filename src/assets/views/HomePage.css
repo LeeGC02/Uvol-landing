@@ -8,3 +8,290 @@
 .img-tipo{
     height: 40vw;
 }
+.btn-contact{
+    font-family: "Roboto Mono", monospace;
+    background-color: #041b2d;
+    border: 2px solid #041b2d;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 0px 20px ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.btn-contact:hover{
+    background-color: transparent;
+    color: #041b2d;
+    font-weight: 700;
+}
+.acronimo-container{
+    background-color: rgba(4, 27, 45, 0.03);
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px 0;
+}
+
+
+/* barras de separación (caso: acronimo)*/
+.acronimo-container::before,
+.acronimo-container::after {
+    content: "";
+    display: block;
+    height: 20px; /* tamño de la barra */
+    background-color: #02819e;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.acronimo-container::before {
+    top: 0; 
+}
+
+.acronimo-container::after {
+    bottom: 0;
+    background-color: #02819e;
+}
+/* barras de separación (caso: acronimo)*/
+
+
+
+
+.textA-container{
+    display: flex;
+    width: 100%;
+}
+
+.textAcron-content {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.acron-title{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 55px;
+    color: #041b2d;
+}
+
+.U-text{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 55px;
+    color: #041b2d;
+}
+/* Coloreando textos (caso: primera letra)*/
+.U-text::first-letter {
+    color: #02819e;
+}
+.U-text::after {
+    color: black;
+}
+/* Coloreando textos (caso: primera letra)*/
+
+.VOL-text{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 55px;
+    color: #041b2d;
+}
+.VOL-text {
+    color: black;
+}
+.highlight {
+    color: #02819e;
+}
+
+
+/* Parte 2*/
+
+/*Lider*/
+.leader-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.textsup-container {
+    width: 100%;
+    text-align: center;
+    color: #02819e;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.img-leader {
+    width: 15%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.textinf-container {
+    width: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 1.5em;
+}
+
+
+/*TEAM*/
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+
+.team-card1 {
+    width: 300px;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 20px;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    overflow: hidden;
+}
+
+.team-card1 img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.ux-ui, .dev1, .dev2, .leader {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.details {
+    font-size: 0.85em;
+    text-align: justify;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+
+/*Parte 3*/
+
+.contact-container {
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 15px; 
+    border: 1px solid #B0B0B0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between; 
+    background-color: #fff;
+    padding: 20px; 
+}
+
+.contact-divider {
+    display: flex; 
+    width: 100%;
+}
+
+.pasos-container {
+    width: 50%; 
+    background-color: #02819e;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.title {
+    font-size: 1.8em;
+    color: #02819e;
+}
+
+.title2 {
+    font-size: 1.4em;
+    color: white;
+}
+
+.imgtxt-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.imgtxt-container img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.ptxt {
+    color: white;
+}
+
+.llenado-container {
+    width: 50%;
+    padding: 20px;
+}
+
+.titletxt-container {
+    margin-bottom: 15px;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="text"].large {
+    height: 120px;
+    resize: vertical;
+}
+
+.contacto {
+    background-color: #02819e;
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 70%;
+    display: block;
+    margin: 20px auto 0;
+}
