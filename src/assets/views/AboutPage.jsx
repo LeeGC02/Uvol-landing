@@ -40,22 +40,22 @@ const AboutPage = () => {
           <div className="team-card">
             <img src="/astronauta.gif" alt="Líder 1" />
             <h3>Romay Torrejon Josue Andres</h3>
-            <p>Posición</p>
+            <p>Líder del Proyecto</p>
           </div>
           <div className="team-card">
             <img src="/backend.gif" alt="Líder 2" />
             <h3>Gonzales Cordova Janna Lia</h3>
-            <p>Posición</p>
+            <p>Desarrolladora FullStack</p>
           </div>
           <div className="team-card">
             <img src="/UI.gif" alt="Líder 3" />
             <h3>Bilbao Yujra Bryan Nelson</h3>
-            <p>Posición</p>
+            <p>Diseñador UI-UX</p>
           </div>
           <div className="team-card">
             <img src="/soporte.gif" alt="Líder 4" />
             <h3>Bautista Poma Walter Abdon</h3>
-            <p>Posición</p>
+            <p>Secretario</p>
           </div>
         </div>
       </div>
