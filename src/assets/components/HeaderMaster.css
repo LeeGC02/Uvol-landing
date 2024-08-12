@@ -1,5 +1,5 @@
 .header-container{
-    background-color: #fff;
+    background-color: #041b2d;
     padding: 50px 64px;
     display: flex;
     justify-content: space-around;
@@ -14,7 +14,7 @@
 .ref-span{
     text-decoration: none;
     font-weight: 400;
-    color: #041b2d;
+    color: #fff;
     transition: background-color 0.3s ease, color 0.3s ease; 
 }
 .ref-span:hover{
@@ -22,12 +22,12 @@
 }
 .title-header{
     font-weight: 700;
-    color: #041b2d;
+    color: #fff;
 }
 .btn-contact{
     font-family: "Roboto Mono", monospace;
-    background-color: #041b2d;
-    border: 2px solid #041b2d;
+    background-color: #18c7c9;
+    border: 2px solid #18c7c9;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -42,6 +42,6 @@
 }
 .btn-contact:hover{
     background-color: transparent;
-    color: #041b2d;
+    color: #18c7c9;
     font-weight: 700;
 }
