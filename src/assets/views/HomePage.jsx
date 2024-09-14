@@ -74,7 +74,7 @@ const HomePage = () => {
         <div className='contact-divider'>
 
           <div className='pasos-container'>
-            <p className='title'> ¿Necesitas algún servicio?</p>
+            <p className='title_general'> ¿Necesitas algún servicio?</p>
             <p className='title2'> Nosotros podemos ayudarte</p>
 
             <div className='imgtxt-container'>
