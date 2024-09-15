@@ -9,7 +9,7 @@ const AboutPage = () => {
 
       <div className="block alternate">
         <div className="text-container">
-          <h2>Quiénes Somos</h2>
+          <h2>Quienes Somos</h2>
           <p>UVOL, fundada en 2024, es una empresa dedicada a la creación de soluciones tecnológicas innovadoras que satisfacen las diversas necesidades del mercado. Nos comprometemos a desarrollar aplicaciones y plataformas que optimizan procesos en múltiples sectores, aportando valor a nuestros clientes.</p>
         </div>
         <div className="image-container">
@@ -18,12 +18,12 @@ const AboutPage = () => {
       </div>
 
       <div className="block alternate">
+        <div className="image-container">
+          <img src="/Mision.jpeg" alt="Misión" />
+        </div>
         <div className="text-container">
           <h2>Misión</h2>
           <p>Desarrollar soluciones tecnológicas que mejoren la eficiencia y efectividad de diversas industrias, facilitando la gestión de procesos y promoviendo la innovación continua.</p>
-        </div>
-        <div className="image-container">
-          <img src="/Mision.jpeg" alt="Misión" />
         </div>
       </div>
 

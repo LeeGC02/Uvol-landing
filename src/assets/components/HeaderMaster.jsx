@@ -1,13 +1,22 @@
 //import React from 'react'
 import { Link } from 'react-router-dom'; // Importa Link
+import React, { useEffect } from 'react';
 import './HeaderMaster.css';
 
 const HeaderMaster = () => {
+  useEffect(() => {
+    const header = document.querySelector('.header-container');
+    setTimeout(() => {
+      header.classList.add('show');
+    }, 100);
+  }, []);
   return (
     <header className='header-container'>
       <div className="img-title-container">
-        <img className='img-uvol' src="/uvol logo.jpg" alt="logo uvol" />
-        <span className='title-header'>Uvol SRL</span>
+        <a className="ok" href="/">
+          <img className='img-uvol' src="/uvol logo.jpg" alt="logo uvol" />
+          <span className='title-header'>Uvol SRL</span>
+        </a>
       </div>
       <div className="ref-container">
         <a className='ref-span' href="/">Inicio</a>
@@ -19,4 +28,4 @@ const HeaderMaster = () => {
   )
 }
 
-export default HeaderMaster
+export default HeaderMaster;

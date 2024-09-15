@@ -9,15 +9,14 @@
   
   .servicios-title {
     text-align: center;
-    font-size: 2.5em;
-    color: #34495e;
+    font-size: 50px;
+    color: #02819e;
     margin-bottom: 20px;
   }
   
   .servicios-description {
     text-align: center;
-    font-size: 1.5em; /* Tamaño de la fuente de la descripción principal */
-    color: #00bcd4; /* Color cian */
+    font-size: 18px; /* Tamaño de la fuente de la descripción principal */
     margin-bottom: 50px;
   }
   
@@ -33,8 +32,9 @@
   .card-text {
     flex: 1;
     padding: 20px;
-    font-size: 1.1em;
-    color: #7f8c8d;
+    font-size: 17px;
+    color: #000000;
+    text-align: justify;
   }
   
   .card-image {
@@ -49,7 +49,7 @@
   }
   
   .accordion-button {
-    font-size: 1.3em;
+    font-size: 1em;
     color: #34495e;
   }
   
@@ -60,7 +60,8 @@
   
   /* Estilo específico para la descripción dentro del acordeón */
   .service-description {
-    font-size: 1.2em; /* Tamaño de la fuente más grande */
-    color: #00bcd4; /* Color cian */
+    font-size: 25px; /* Tamaño de la fuente más grande */
+    color: #02819e;
+    font-weight: 700;
+    text-align: center;
   }
-  

@@ -45,6 +45,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #041b2d;
+    text-align: justify;
 }
 
 /* barras de separación (caso: acronimo)*/
@@ -52,7 +53,7 @@
 .acronimo-container::after {
     content: "";
     display: block;
-    height: 20px; /* tamño de la barra */
+    height: 5px; /* tamño de la barra */
     background-color: #02819e;
     width: 100%;
     position: absolute;
@@ -84,15 +85,16 @@
 
 .acron-title{
     text-decoration: none;
-    font-weight: 400;
-    font-size: 55px;
+    font-weight: 700;
+    font-size: 75px;
     color: #041b2d;
+    text-align: center;
 }
 
 .U-text{
     text-decoration: none;
     font-weight: 400;
-    font-size: 55px;
+    font-size: 60px;
     color: #041b2d;
 }
 /* Coloreando textos (caso: primera letra)*/
@@ -139,6 +141,7 @@
     color: #02819e;
     font-size: 3em;
     margin-bottom: 15px;
+    font-weight: 800;
 }
 
 .img-leader {
@@ -180,7 +183,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 500px;
+    height: 550px;
     overflow: hidden;
 }
 
@@ -235,18 +238,19 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .title_general {
-    font-size: 1.6em;
+    font-size: 2em;
     color: white;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 .title {
-    font-size: 1.6em;
+    font-size: 20px;
     color: #02819e;
     font-weight: bold;
     margin-bottom: 15px;
@@ -256,6 +260,7 @@
     font-size: 1.4em;
     color: white;
     margin-bottom: 15px;
+    font-weight: 500;
 }
 
 .imgtxt-container {
@@ -279,6 +284,7 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
+    height: 30px;
 }
 
 input[type="text"].large {
@@ -295,4 +301,7 @@ input[type="text"].large {
     font-size: 1em;
     width: 100%;
     margin-top: 20px;
+}
+.a{
+    font-family: "Roboto Mono", monospace;
 }

@@ -5,12 +5,14 @@ import Footer from '../components/Footer';
 const HomePage = () => {
   return (
     <div className="a">
-
       <div className='homepage-container'>
         <div className="textbox-container">
           <div className="text-content">
+            <br />
               <h3 className='U-text'>UVOL</h3>
+              <br />
               <p className='H-text'>Somos una empresa dedicada a la creación de soluciones tecnológicas innovadoras que abordan diversas necesidades del mercado. Fundada en 2024, la empresa se ha comprometido a desarrollar aplicaciones y plataformas que faciliten la gestión y optimización de procesos en diferentes sectores.</p>
+              <br />
               <button className='btn-contact'>Contacta con Nosotros</button>
           </div>
           <img className='img-tipo' src="/tipo.png" alt="tipo" />
@@ -19,7 +21,7 @@ const HomePage = () => {
 
       <div className='lastProject-container'>
         <div className='textP-container'>
-
+          
         </div>
       </div>
 
@@ -35,7 +37,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className='teamdev-container'>
+      <div className='teamdev-container '>
 
         <div className='leader-container'>
           <div className='textsup-container'>
@@ -75,7 +77,7 @@ const HomePage = () => {
 
           <div className='pasos-container'>
             <p className='title_general'> ¿Necesitas algún servicio?</p>
-            <p className='title2'> Nosotros podemos ayudarte</p>
+            <p className='title2'> Nosotros podemos ayudarte!!!</p>
 
             <div className='imgtxt-container'>
               <img className='steps' src="/email.png" alt="steps" />

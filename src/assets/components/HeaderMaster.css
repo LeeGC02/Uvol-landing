@@ -1,4 +1,5 @@
 .header-container {
+    font-family: "Roboto Mono", monospace;
     background-color: #041b2d;
     padding: 20px 64px; /* Reducir el padding para evitar que ocupe demasiado espacio */
     display: flex;
@@ -8,6 +9,12 @@
     position: sticky; /* Mantener el header en la parte superior */
     top: 0; /* Fijar en la parte superior */
     z-index: 1000; /* Asegurarse de que el header esté por encima de otros elementos */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.header-container.show {
+    opacity: 1; /* Header visible */
 }
 
 .ref-container {
@@ -21,15 +28,23 @@
     font-weight: 400;
     color: #fff;
     transition: background-color 0.3s ease, color 0.3s ease; 
+    font-size: 16px;
+    text-align: center;
 }
 
 .ref-span:hover {
     color: #18c7c9;
+    font-weight: 700;
+    border-bottom: 1px solid #18c7c9;
+    border-top: 1px solid #18c7c9;
+    text-align: center;
 }
 
 .title-header {
     font-weight: 700;
     color: #fff;
+    font-size: 20px;
+
 }
 
 .btn-contact {
@@ -53,4 +68,36 @@
     background-color: transparent;
     color: #18c7c9;
     font-weight: 700;
+}
+
+.img-title-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.img-title-container:hover {
+    transform: scale(1.05); 
+}
+
+.img-uvol {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.title-header {
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out; 
+}
+
+.img-title-container:hover .title-header {
+    color: #18c7c9; 
+    font-weight: 900;
+}
+.ok {
+    text-decoration: none;
 }

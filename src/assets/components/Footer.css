@@ -41,20 +41,33 @@
 .quick-links,
 .social-net-container,
 .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
     flex: 1;
     min-width: 250px;
+    gap: 10px;
 }
 
 .footer-heading {
+    display: flex;
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
     color: #37d528;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #37d528;
+    border-radius: 10px;
+    padding: 5px 10px;
 }
 
 .link-list {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 .link-list li {
@@ -73,7 +86,8 @@
 
 .social-links {
     display: flex;
-    gap: 15px;
+    gap: 30px;
+    justify-content: center;
 }
 
 .network-a {
@@ -89,4 +103,19 @@
 
 .contact-info p {
     margin: 5px 0;
+}
+.icon-links{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5px
+}
+.copy-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.ok {
+    text-decoration: none;
 }
