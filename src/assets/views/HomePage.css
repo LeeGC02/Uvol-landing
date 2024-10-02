@@ -4,9 +4,11 @@
 }
 .textbox-container{
     display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .img-tipo{
-    height: 40vw;
+    height: 30vw;
 }
 .btn-contact{
     font-family: "Roboto Mono", monospace;

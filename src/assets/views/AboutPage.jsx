@@ -43,7 +43,7 @@ const AboutPage = () => {
         <h2>Equipo de UVOL</h2>
         <div className="team-grid">
           <div className="team-card">
-            <img src="/Josu(Momentaneo).jpg" alt="Líder 1" />
+            <img src="/BJ.jpg" alt="Líder 1" />
             <h3>Romay Torrejon Josue Andres</h3>
             <p>Líder del Proyecto</p>
           </div>

@@ -2,7 +2,10 @@
 import './HomePage.css';
 import HeaderMaster from '../components/HeaderMaster';
 import Footer from '../components/Footer';
+import { useNavigate } from 'react-router-dom';
+
 const HomePage = () => {
+  const navigate = useNavigate();
   return (
     <div className="a">
       <div className='homepage-container'>
@@ -13,7 +16,7 @@ const HomePage = () => {
               <br />
               <p className='H-text'>Somos una empresa dedicada a la creación de soluciones tecnológicas innovadoras que abordan diversas necesidades del mercado. Fundada en 2024, la empresa se ha comprometido a desarrollar aplicaciones y plataformas que faciliten la gestión y optimización de procesos en diferentes sectores.</p>
               <br />
-              <button className='btn-contact'>Contacta con Nosotros</button>
+              <button className='btn-contact' onClick={() => navigate('/services')}>Contacta con Nosotros</button>
           </div>
           <img className='img-tipo' src="/tipo.png" alt="tipo" />
         </div>
@@ -71,74 +74,6 @@ const HomePage = () => {
         </div>
 
       </div>
-      
-      <div className='contact-container'>
-        <div className='contact-divider'>
-
-          <div className='pasos-container'>
-            <p className='title_general'> ¿Necesitas algún servicio?</p>
-            <p className='title2'> Nosotros podemos ayudarte!!!</p>
-
-            <div className='imgtxt-container'>
-              <img className='steps' src="/email.png" alt="steps" />
-              <p className='ptxt'>1. Hablanos de tu idea</p>
-            </div>
-
-            <div className='imgtxt-container'>
-            <img className='steps' src="/requeriments.png" alt="steps" />
-              <p className='ptxt'>2. Definiremos tus requerimientos</p>
-            </div>
-
-            <div className='imgtxt-container'>
-            <img className='steps' src="/email (1).png" alt="steps" />
-              <p className='ptxt'>3. Recibe nuestra propuesta</p>
-            </div>
-
-            <div className='imgtxt-container'>
-            <img className='steps' src="/paper-plane.png" alt="steps" />
-              <p className='ptxt'>4. Hagamos tu proyecto realidad</p>
-            </div>
-
-          </div>
-
-          <div className='llenado-container'>
-
-            <div className='titletxt-container'>
-              <p className='title'>País</p>
-              <input type="text" />
-            </div>
-
-            <div className='titletxt-container'>
-              <p className='title'>Nombre</p>
-              <input type="text" />
-            </div>
-
-            <div className='titletxt-container'>
-              <p className='title'>E-mail</p>
-              <input type="text" />
-            </div>
-
-            <div className='titletxt-container'>
-              <p className='title'>Empresa</p>
-              <input type="text" />
-            </div>
-
-            <div className='titletxt-container'>
-              <p className='title'>Teléfono</p>
-              <input type="text" />
-            </div>
-
-
-            <div className='titletxt-container'>
-              <p className='title'>Cuentanos tu idea</p>
-              <input type="text" className='large'/>
-            </div>
-
-            <button className='contacto'>ENVIAR</button>
-          </div>
-        </div>
-      </div>
-
       <Footer/>
 
     </div>

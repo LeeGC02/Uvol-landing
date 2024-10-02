@@ -2,8 +2,10 @@
 import { Link } from 'react-router-dom'; // Importa Link
 import React, { useEffect } from 'react';
 import './HeaderMaster.css';
+import { useNavigate } from 'react-router-dom';
 
 const HeaderMaster = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     const header = document.querySelector('.header-container');
     setTimeout(() => {
@@ -23,7 +25,7 @@ const HeaderMaster = () => {
         <a className='ref-span' href="/aboutus">Quienes Somos</a>
         <a className='ref-span' href="/services">Nuestros Servicios</a>
       </div>
-      <button className='btn-contact'>Contacta con Nosotros</button>
+      <button className='btn-contact' onClick={() => navigate('/services')}>Contacta con Nosotros</button>
     </header>
   )
 }
