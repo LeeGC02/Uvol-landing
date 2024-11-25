@@ -68,11 +68,14 @@ const AboutPage = () => {
       <div className="featured-project">
         <h2>VOLUNTARIAPP</h2>
         <div className="project-content">
-          <img src="/VoluntariApp.jpeg" alt="Proyecto Destacado" />
-          <div className="project-text">
-            <p>Uno de los proyectos más recientes y significativos de UVOL es una plataforma integral diseñada para mejorar la gestión y participación en actividades comunitarias. Esta aplicación móvil ofrece una interfaz amigable y funcionalidades avanzadas, permitiendo una gestión eficiente y la generación de informes detallados.</p>
-          </div>
-        </div>
+  <a href="http://localhost:5173/" className="project-link">
+    <img src="/VoluntariApp.jpeg" alt="Proyecto Destacado" />
+    <div className="project-text">
+      <p>Uno de los proyectos más recientes y significativos de UVOL es una plataforma integral diseñada para mejorar la gestión y participación en actividades comunitarias. Esta aplicación móvil ofrece una interfaz amigable y funcionalidades avanzadas, permitiendo una gestión eficiente y la generación de informes detallados.</p>
+    </div>
+  </a>
+</div>
+
       </div>
        
     </div>
