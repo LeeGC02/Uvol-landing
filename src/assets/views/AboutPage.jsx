@@ -57,11 +57,6 @@ const AboutPage = () => {
             <h3>Bilbao Yujra Bryan Nelson</h3>
             <p>Diseñador UI-UX</p>
           </div>
-          <div className="team-card">
-            <img src="/Walter.jpg" alt="Líder 4" />
-            <h3>Bautista Poma Walter Abdon</h3>
-            <p>Secretario</p>
-          </div>
         </div>
       </div>
 
